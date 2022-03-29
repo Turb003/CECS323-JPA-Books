@@ -82,12 +82,10 @@ public class CarClub {
       owners.add(new Owners("Guitierez", "Luis", "562-982-2899"));
       // Create the list of owners in the database.
       carclub.createEntity (owners);
-      system.out.println("Test");
 
       // Commit the changes so that the new data persists and is visible to other users.
       tx.commit();
       LOGGER.fine("End of Transaction");
-      system.out.println("hello guygs");
 
    } // End of the main method
 
