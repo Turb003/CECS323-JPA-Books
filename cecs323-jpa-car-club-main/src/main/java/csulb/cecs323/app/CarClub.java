@@ -86,6 +86,7 @@ public class CarClub {
       // Commit the changes so that the new data persists and is visible to other users.
       tx.commit();
       LOGGER.fine("End of Transaction");
+      system.out.println("hello guygs");
 
    } // End of the main method
 
